@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local skill symlinks (point outside the repo)
+/skills
+/.claude/skills
