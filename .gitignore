@@ -44,6 +44,16 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# local skill symlinks (point outside the repo)
-/skills
-/.claude/skills
+# local-only symlinks into ../base-skills (machine-specific, point outside
+# the repo). Project-local skills such as skills/verify-website/ are real,
+# tracked directories and must NOT be matched here. .claude/skills is a
+# symlink to ./skills and stays tracked.
+/skills/product-discovery
+/skills/review
+/skills/spec
+/skills/tdd
+/skills/technical-discovery
+/skills/verify
+/skills/work-breakdown
+/skills/create-verification-skill
+/skills/maintain-verification-skill
