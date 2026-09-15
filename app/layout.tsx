@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${bricolageGrotesque.variable} ${mulish.variable} ${jetbrainsMono.variable} h-dvh antialiased`}
+      className={`dark ${bricolageGrotesque.variable} ${mulish.variable} ${jetbrainsMono.variable} h-dvh antialiased`}
     >
       <body className="h-full flex flex-col">{children}</body>
     </html>
