@@ -1,0 +1,15 @@
+{
+  "extraKnownMarketplaces": {
+    "base-skills": {
+      "source": {
+        "source": "github",
+        "repo": "Gorilla-Enterprises/base-skills"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "utils@base-skills": true,
+    "engineering@base-skills": true,
+    "project-management@base-skills": true
+  }
+}
