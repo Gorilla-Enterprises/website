@@ -10,7 +10,7 @@
     "test:e2e": "playwright test"
   },
   "dependencies": {
-    "@gorilla/design-system": "file:../design-system/dist-pack/gorilla-design-system-0.1.0.tgz",
+    "@gorilla-enterprises/design-system": "^0.2.1",
     "next": "16.2.4",
     "react": "19.2.4",
     "react-dom": "19.2.4"

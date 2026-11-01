@@ -18,12 +18,12 @@ test("landing page shows the Gorilla Enterprises mark, wordmark, and dateline", 
   await expect(page.getByText("Rwanda")).toBeVisible();
 });
 
-test("landing page renders with the @gorilla/design-system dark theme tokens", async ({
+test("landing page renders with the @gorilla-enterprises/design-system dark theme tokens", async ({
   page,
 }) => {
   await page.goto("/");
 
-  // These are @gorilla/design-system's `.dark` scope values (theme.css:
+  // These are @gorilla-enterprises/design-system's `.dark` scope values (theme.css:
   // --ge-surface-base, --ge-ink-primary, --ge-ink-secondary, --ge-ink-muted),
   // not the site's old hand-rolled --ge-* block — the two sets of values are
   // close but not identical, so this only passes once the design system's
